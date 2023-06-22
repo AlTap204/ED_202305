@@ -19,7 +19,7 @@ try
     //contenido = pila.Imprimir();
     //Console.WriteLine(contenido);
 
-    Arreglos.Colas colas = new Arreglos.Colas(10);
+    Arreglos.ColasArreglos colas = new Arreglos.ColasArreglos(10);
     colas.Agregar("A");
     colas.Agregar("B");
     colas.Agregar("C");
@@ -47,4 +47,3 @@ catch (Exception ex)
 
 
 }
-
