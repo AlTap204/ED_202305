@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    internal class ColasListas
+    public class NodoCola
     {
+
     }
 }

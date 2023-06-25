@@ -1,13 +1,13 @@
 ﻿namespace Arreglos
 {
-    public class ColasArreglos
+    public class Colas
     {
         private string[] arreglo;
         private int max;
         private int inicio;
         private int final;
 
-        public ColasArreglos(int elementos)
+        public Colas(int elementos)
         {
             arreglo = new string[elementos];
             max = arreglo.Length - 1;

@@ -1,12 +1,12 @@
 ﻿namespace Arreglos
 {
-    public class PilasArreglos
+    public class Pilas
     {
         private string[] arreglo;
         private int max;
         private int tope;
 
-        public PilasArreglos(int elementos)
+        public Pilas(int elementos)
         {
             arreglo = new string[elementos];
             tope = 0;
