@@ -1,4 +1,4 @@
-﻿namespace Listas
+﻿namespace ListasPilas
 {
     class Pilas
     {
@@ -81,15 +81,15 @@
 
         static void Main(string[] args)
         {
-            Pilas pila1 = new Pilas();
-            pila1.Agregar(10);
-            pila1.Agregar(20);
-            pila1.Agregar(30);
-            pila1.Imprimir();
-            Console.WriteLine("La cantidad de nodos de la lista es:" + pila1.Cantidad());
-            while (pila1.EstaVacia() == false)
+            Pilas pila = new Pilas();
+            pila.Agregar(10);
+            pila.Agregar(20);
+            pila.Agregar(30);
+            pila.Imprimir();
+            Console.WriteLine("La cantidad de nodos de la lista es:" + pila.Cantidad());
+            while (pila.EstaVacia() == false)
             {
-                Console.WriteLine(pila1.Extraer());
+                Console.WriteLine(pila.Extraer());
             }
             Console.ReadKey();
         }
