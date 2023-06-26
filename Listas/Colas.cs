@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace Listas
 {
-    public class NodoCola
+    public class Colas
     {
+        class Nodo 
+        { 
+            public int info;
+            public Nodo sig;
+        }
+
+        private Nodo raiz, fondo;
+        public Colas()
+        {
+            
+        }
 
     }
 }
